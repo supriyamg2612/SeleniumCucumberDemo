@@ -23,7 +23,7 @@ public class BaseClass {
 		
 		if(browserName.equalsIgnoreCase("chrome")) {
 			if (driver == null) {
-			System.setProperty("webdriver.chrome.driver", "/Users/ameyaathale/Documents/Selenium_Automation_Workspace/chromedriver-mac-x64/chromedriver");
+				System.setProperty("webdriver.chrome.driver", "driver/chromedriver");
 		driver = new ChromeDriver();
 		}
 		}
